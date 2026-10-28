@@ -1,0 +1,573 @@
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171a16">
+  <meta name="description" content="Tunggal Motor 27 Pare menyediakan sparepart dan perlengkapan trail. Tanya ketersediaan dan kecocokan motor langsung melalui WhatsApp.">
+  <title>Tunggal Motor 27 Pare | Sparepart & Perlengkapan Trail</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+    Blueprint sitemap:
+    Beranda -> Katalog (Engine, Body, Frame, Gear, Accessories) -> Detail Produk -> Tentang & Lokasi.
+    Halaman ini merangkum alur tersebut dalam satu homepage dengan navigasi anchor.
+    Palet: charcoal #171a16, off-white #f4f4ef, safety orange #f26a21, lime #c7ed46, forest green #31563f.
+    Untuk Elementor: jadikan setiap section utama sebagai Section/Container; kartu kategori dan produk sebagai Loop/Grid.
+  -->
+  <div class="topline">
+    <div class="wrap topline__inner">
+      <span>Sparepart & perlengkapan trail • Pare, Kabupaten Kediri</span>
+      <span>Butuh cek barang? <a href="#hubungi">Chat Tunggal Motor 27</a></span>
+    </div>
+  </div>
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="brand" href="#beranda" aria-label="Tunggal Motor 27, beranda">
+        <span class="brand__mark">TM</span>
+        <span class="brand__name">Tunggal Motor 27<small>PARE • TRAIL PARTS</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="#kategori">Kategori</a>
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang kami</a>
+        <a href="#lokasi">Lokasi</a>
+        <a class="button" href="#hubungi">Tanya via WhatsApp <span class="arrow">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero__stage" aria-label="Foto motor trail pilihan">
+        <img class="hero-bike-image" id="heroBikeImage" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1800&q=90" alt="Foto motor trail di medan luar ruang">
+        <div class="spotlight-card"><small id="heroPhotoLabel">Pilihan foto</small><b id="spotlightTitle">KLX</b><p id="spotlightDescription">Motor trail • pilih kartu untuk melihat foto lainnya.</p></div>
+      </div>
+      <div class="hero__inner reveal">
+        <span class="eyebrow">Tunggal Motor 27 • Pare, Kediri</span>
+        <h1 class="display">Pusat part trail.<br><span>Siap taklukkan medan.</span></h1>
+        <p class="hero__copy">Sparepart dan aksesoris trail & supermoto untuk persiapan di jalan maupun jalur tanah. Temukan kebutuhanmu, lalu cek detailnya langsung bersama tim toko.</p>
+        <div class="hero__actions">
+          <a class="button" href="#produk">Jelajahi katalog <span class="arrow">↘</span></a>
+          <a class="button button--light" data-wa="Halo Tunggal Motor 27 Pare, saya ingin tanya sparepart trail." href="#hubungi">Konsultasi part <span class="arrow">↗</span></a>
+        </div>
+        <p class="hero__note"><strong>Belanja langsung dari Pare.</strong> Tanya stok dan kecocokan sebelum checkout.</p>
+      </div>
+      <div class="hero__stamp" aria-hidden="true"><b>TM<br>27</b><small>Trail • Supermoto</small></div>
+    </section>
+
+    <section class="bike-picker" aria-label="Pilih tipe motor">
+      <div class="wrap bike-picker__inner">
+        <div class="bike-picker__heading">
+          <div><span class="bike-picker__label">Pilih tungganganmu</span><p class="bike-picker__sub">Pilih varian untuk melihat foto motor dan lanjutkan konsultasi sparepart.</p></div>
+          <span class="bike-picker__hint" id="bikeHint">KLX dipilih • foto ilustrasi, bukan foto resmi tiap model.</span>
+        </div>
+        <div class="bike-variants" role="group" aria-label="Pilih varian motor">
+          <button class="variant-card" data-bike="KLX" data-image="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1800&q=90" data-photo-label="Trail / dual purpose" aria-pressed="true"><span class="variant-card__photo"><img class="variant-card__image" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=650&q=82" alt="Foto ilustrasi motor trail hijau"></span><span class="variant-card__name">KLX</span><span class="variant-card__type">Trail / dual purpose</span><span class="variant-card__select">01</span></button>
+          <button class="variant-card" data-bike="CRF" data-image="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1800&q=90" data-photo-label="Trail / enduro" aria-pressed="false"><span class="variant-card__photo"><img class="variant-card__image" src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=650&q=82" alt="Foto ilustrasi motor trail merah"></span><span class="variant-card__name">CRF</span><span class="variant-card__type">Trail / enduro</span><span class="variant-card__select">02</span></button>
+          <button class="variant-card" data-bike="WR155" data-image="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1800&q=90&sat=-20" data-photo-label="Trail / adventure" aria-pressed="false"><span class="variant-card__photo"><img class="variant-card__image" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=650&q=82&sat=-20" alt="Foto ilustrasi motor trail untuk adventure"></span><span class="variant-card__name">WR155</span><span class="variant-card__type">Trail / adventure</span><span class="variant-card__select">03</span></button>
+          <button class="variant-card" data-bike="YZ" data-image="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1800&q=90&sat=20" data-photo-label="Motocross / off-road" aria-pressed="false"><span class="variant-card__photo"><img class="variant-card__image" src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=650&q=82&sat=20" alt="Foto ilustrasi motor motocross"></span><span class="variant-card__name">YZ</span><span class="variant-card__type">Motocross / off-road</span><span class="variant-card__select">04</span></button>
+          <button class="variant-card" data-bike="D-Tracker" data-image="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1800&q=90&sat=-45" data-photo-label="Supermoto" aria-pressed="false"><span class="variant-card__photo"><img class="variant-card__image" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=650&q=82&sat=-45" alt="Foto ilustrasi motor gaya supermoto"></span><span class="variant-card__name">D-Tracker</span><span class="variant-card__type">Supermoto</span><span class="variant-card__select">05</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof" aria-label="Keunggulan toko">
+      <div class="wrap proof__grid">
+        <div class="proof__item"><span class="proof__number">01</span><div><b>Toko fisik di Pare</b><small>Belanja langsung di Kabupaten Kediri</small></div></div>
+        <div class="proof__item"><span class="proof__number">02</span><div><b>Bantu cek kecocokan</b><small>Kirim tipe dan tahun motor saat bertanya</small></div></div>
+        <div class="proof__item"><span class="proof__number">03</span><div><b>Order lebih praktis</b><small>Tanya ketersediaan lewat WhatsApp</small></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="kategori">
+      <div class="wrap">
+        <div class="section__head">
+          <div><span class="eyebrow">Pilih kebutuhanmu</span><h2 class="display">Cari part, mulai dari sini.</h2></div>
+          <p>Jelajahi kategori utama, lalu hubungi kami untuk menanyakan pilihan, stok, dan kecocokan part untuk motormu.</p>
+        </div>
+        <div class="category-grid">
+          <a class="category" href="#produk" data-category-link="engine"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80" alt="Komponen mesin motor"><div class="category__content"><small>Tenaga & performa</small><h3>Engine</h3><span>↗</span></div></a>
+          <a class="category" href="#produk" data-category-link="body"><img loading="lazy" src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=80" alt="Bagian bodi motor"><div class="category__content"><small>Tampilan motor</small><h3>Body</h3><span>↗</span></div></a>
+          <a class="category" href="#produk" data-category-link="frame"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80" alt="Rangka dan kaki-kaki motor"><div class="category__content"><small>Fondasi & kendali</small><h3>Frame</h3><span>↗</span></div></a>
+          <a class="category" href="#produk" data-category-link="gear"><img loading="lazy" src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=80" alt="Perlengkapan berkendara"><div class="category__content"><small>Perlengkapan riding</small><h3>Gear</h3><span>↗</span></div></a>
+          <a class="category" href="#produk" data-category-link="accessories"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80" alt="Aksesori motor trail"><div class="category__content"><small>Detail tambahan</small><h3>Accessories</h3><span>↗</span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white" id="produk">
+      <div class="wrap">
+        <div class="section__head">
+          <div><span class="eyebrow">Katalog pilihan</span><h2 class="display">Part buat lanjut jalan.</h2></div>
+          <p>Contoh layout katalog untuk part trail dan supermoto. Pastikan nama, foto, harga, stok, serta kompatibilitas sesuai data aktual toko.</p>
+        </div>
+        <div class="products__tools">
+          <div class="filters" aria-label="Filter kategori produk">
+            <button class="filter" data-filter="all" aria-pressed="true">Semua</button>
+            <button class="filter" data-filter="engine" aria-pressed="false">Engine</button>
+            <button class="filter" data-filter="body" aria-pressed="false">Body</button>
+            <button class="filter" data-filter="frame" aria-pressed="false">Frame</button>
+            <button class="filter" data-filter="gear" aria-pressed="false">Gear</button>
+            <button class="filter" data-filter="accessories" aria-pressed="false">Accessories</button>
+          </div>
+          <input class="search" type="search" placeholder="Cari nama atau kategori..." aria-label="Cari produk">
+        </div>
+        <div class="product-grid" id="productGrid">
+          <article class="product" data-category="engine" data-name="kampas rem trail engine" data-product="Kampas Rem Trail" data-description="Contoh item kategori Engine. Isi merek, kode part, material, dan kompatibilitas yang sudah diverifikasi.">
+            <div class="product__image"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80" alt="Contoh produk kategori engine"><span class="product__tag">Contoh: Best Seller</span></div>
+            <div class="product__body"><span class="product__category">Engine • item contoh</span><h3>Kampas Rem Trail</h3><div class="product__meta">Cek kode part, ukuran, dan kecocokan tipe motor.</div><div class="product__bottom"><b>Cek harga & stok</b><div class="product__actions"><button class="text-action" data-detail type="button">Detail 3D ↗</button><a data-wa="Halo, saya ingin tanya Kampas Rem Trail. Tipe motor saya: ... Mohon info harga, stok, dan kecocokan." href="#hubungi">Order WA ↗</a></div></div></div>
+          </article>
+          <article class="product" data-category="body" data-name="cover bodi trail body" data-product="Cover Bodi Trail" data-description="Contoh item kategori Body. Tambahkan pilihan warna, bahan, dan kode part dari produk aktual.">
+            <div class="product__image"><img loading="lazy" src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=80" alt="Contoh produk kategori body"><span class="product__tag product__tag--red">Contoh: Promo</span></div>
+            <div class="product__body"><span class="product__category">Body • item contoh</span><h3>Cover Bodi Trail</h3><div class="product__meta">Pastikan bentuk, warna, dan dudukan sesuai unit.</div><div class="product__bottom"><b>Cek harga & stok</b><div class="product__actions"><button class="text-action" data-detail type="button">Detail 3D ↗</button><a data-wa="Halo, saya ingin tanya Cover Bodi Trail. Tipe motor saya: ... Mohon info pilihan, harga, dan stok." href="#hubungi">Order WA ↗</a></div></div></div>
+          </article>
+          <article class="product" data-category="frame" data-name="set sprocket gear frame" data-product="Set Sprocket Trail" data-description="Contoh item kategori Frame/kaki-kaki. Lengkapi ukuran gear, jumlah mata, bahan, dan fitment terverifikasi.">
+            <div class="product__image"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80" alt="Contoh produk kategori frame"><span class="product__tag product__tag--green">Contoh: Original Part</span></div>
+            <div class="product__body"><span class="product__category">Frame • item contoh</span><h3>Set Sprocket Trail</h3><div class="product__meta">Konfirmasi ukuran, rasio, dan kecocokan sebelum order.</div><div class="product__bottom"><b>Cek harga & stok</b><div class="product__actions"><button class="text-action" data-detail type="button">Detail 3D ↗</button><a data-wa="Halo, saya ingin tanya Set Sprocket Trail. Tipe motor saya: ... Mohon info spesifikasi, harga, dan stok." href="#hubungi">Order WA ↗</a></div></div></div>
+          </article>
+          <article class="product" data-category="gear" data-name="helm trail riding gear" data-product="Helm Trail" data-description="Contoh item kategori Gear. Masukkan brand, ukuran, standar, dan warna yang benar sesuai produk.">
+            <div class="product__image"><img loading="lazy" src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=80" alt="Contoh produk perlengkapan riding"><span class="product__tag product__tag--yellow">Contoh: Ready Stock</span></div>
+            <div class="product__body"><span class="product__category">Gear • item contoh</span><h3>Helm Trail</h3><div class="product__meta">Pilih ukuran dan standar sesuai kebutuhan berkendara.</div><div class="product__bottom"><b>Cek harga & stok</b><div class="product__actions"><button class="text-action" data-detail type="button">Detail 3D ↗</button><a data-wa="Halo, saya ingin tanya Helm Trail. Mohon info pilihan ukuran, harga, dan stok." href="#hubungi">Order WA ↗</a></div></div></div>
+          </article>
+          <article class="product" data-category="accessories" data-name="handguard accessories aksesori" data-product="Handguard Trail" data-description="Contoh item kategori Accessories. Isi bahan, tipe mounting, pilihan warna, serta kecocokan produk aktual.">
+            <div class="product__image"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80" alt="Contoh produk aksesori motor"><span class="product__tag">Contoh: Ready Stock</span></div>
+            <div class="product__body"><span class="product__category">Accessories • item contoh</span><h3>Handguard Trail</h3><div class="product__meta">Cek tipe mounting, diameter setang, dan pilihan warna.</div><div class="product__bottom"><b>Cek harga & stok</b><div class="product__actions"><button class="text-action" data-detail type="button">Detail 3D ↗</button><a data-wa="Halo, saya ingin tanya Handguard Trail. Tipe motor saya: ... Mohon info spesifikasi, harga, dan stok." href="#hubungi">Order WA ↗</a></div></div></div>
+          </article>
+        </div>
+        <p class="catalog-note">Semua nama produk, foto, dan badge di atas adalah contoh tampilan, bukan konfirmasi stok atau status resmi. Ganti dengan data produk toko dan verifikasi kecocokan sebelum publikasi.</p>
+      </div>
+    </section>
+
+    <section class="assist">
+      <div class="assist__visual" role="img" aria-label="Motor untuk aktivitas trail"></div>
+      <div class="assist__content">
+        <span class="eyebrow">Biar tidak salah part</span>
+        <h2 class="display">Cek dulu. Baru gas.</h2>
+        <p>Setiap motor punya tipe dan tahun produksi yang berbeda. Kirim detail unit sebelum order agar kami bisa membantu mengecek informasi produk yang sesuai.</p>
+        <ul class="assist__list"><li>Siapkan merek dan tipe motor</li><li>Sertakan tahun atau kode model bila tahu</li><li>Kirim foto part lama jika diperlukan</li></ul>
+        <a class="button button--light" data-wa="Halo Tunggal Motor 27, saya ingin cek kecocokan sparepart. Tipe motor saya: ... Tahun: ..." href="#hubungi">Konsultasi kecocokan <span class="arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="detail-produk">
+      <div class="wrap detail-layout">
+        <div class="detail__photo"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=85" alt="Contoh foto produk sparepart trail"></div>
+        <div class="detail__content">
+          <span class="eyebrow">Contoh format detail produk</span>
+          <h2 class="display">Informasi jelas, sebelum checkout.</h2>
+          <p>Halaman detail produk sebaiknya menampilkan spesifikasi yang sudah dikonfirmasi, foto aktual, dan daftar kompatibilitas yang jelas.</p>
+          <div class="specs">
+            <div class="spec"><b>Nama produk</b><span>[Isi nama dan kode part]</span></div>
+            <div class="spec"><b>Spesifikasi</b><span>[Bahan, ukuran, warna, merek]</span></div>
+            <div class="spec"><b>Kondisi</b><span>[Baru / lainnya sesuai barang]</span></div>
+            <div class="spec"><b>Ketersediaan</b><span>[Konfirmasi stok aktual]</span></div>
+          </div>
+          <div class="fitment"><b>Kesesuaian motor</b><p>[Cantumkan merek, tipe, tahun, dan varian yang sudah dipastikan. Jangan mengisi daftar kompatibilitas berdasarkan perkiraan.]</p></div>
+          <a class="button" data-wa="Halo Tunggal Motor 27, saya ingin checkout [nama produk]. Tipe motor: ... Tahun: ... Mohon konfirmasi stok, kecocokan, dan total harga." href="#hubungi">Checkout via WhatsApp <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white" id="tentang">
+      <div class="wrap about">
+        <div>
+          <span class="eyebrow">Kenalan dengan toko</span>
+          <h2 class="display">Dari Pare, untuk teman-teman trail.</h2>
+          <p class="about__copy">Tunggal Motor 27 adalah toko sparepart dan perlengkapan trail yang berlokasi di Pare, Kabupaten Kediri. Kami melayani pembelian langsung dan pertanyaan produk secara online. Hubungi toko untuk mengecek barang, mendiskusikan kecocokan, dan mendapatkan informasi sebelum bertransaksi.</p>
+          <div class="about__facts">
+            <div class="about__fact"><b>Lokasi Pare</b><small>Toko fisik di Kabupaten Kediri</small></div>
+            <div class="about__fact"><b>Trail parts</b><small>Engine, Body, Frame, Gear, Accessories</small></div>
+          </div>
+          <div class="why-grid" aria-label="Mengapa memilih Tunggal Motor 27 Pare">
+            <article class="why-item"><span>01</span><h3>Part terkurasi</h3><p>Utamakan produk original dan jelaskan status produk berdasarkan informasi yang terverifikasi.</p></article>
+            <article class="why-item"><span>02</span><h3>Konsultasi gratis</h3><p>Tanya rekomendasi part dan setting motor lewat WhatsApp sebelum menentukan pilihan.</p></article>
+            <article class="why-item"><span>03</span><h3>Kirim ke seluruh Indonesia</h3><p>Konfirmasi ongkir, metode kirim, dan estimasi pengiriman sesuai tujuan.</p></article>
+          </div>
+        </div>
+        <div class="location" id="lokasi">
+          <div class="location__map"><iframe title="Peta area Tunggal Motor 27 Pare" loading="lazy" src="https://maps.google.com/maps?q=Tunggal%20Motor%2027%20Pare%20Kediri&t=&z=14&ie=UTF8&iwloc=&output=embed"></iframe></div>
+          <div class="location__info"><h3>Temukan kami di Pare</h3><p>Area Pare, Kabupaten Kediri, Jawa Timur.<br>Konfirmasi alamat lengkap dan jam buka melalui WhatsApp sebelum berkunjung.</p><a class="button button--outline" href="https://www.google.com/maps/search/?api=1&query=Tunggal+Motor+27+Pare+Kediri" target="_blank" rel="noopener">Buka Google Maps <span class="arrow">↗</span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" id="hubungi">
+      <div class="wrap closing__inner">
+        <div><h2 class="display">Lagi cari part apa?</h2><p>Kirim tipe motor dan barang yang dicari. Kami bantu cek informasi produk dan ketersediaannya.</p></div>
+        <a class="button button--light" data-wa="Halo Tunggal Motor 27, saya sedang mencari sparepart/perlengkapan trail. Bisa dibantu?" href="#">Mulai chat WhatsApp <span class="arrow">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
+    <div class="product-dialog__inner">
+      <div class="product-dialog__top">
+        <div><span class="eyebrow" id="dialogCategory">Detail produk</span><h2 id="dialogTitle">Produk</h2></div>
+        <button class="product-dialog__close" type="button" aria-label="Tutup detail">×</button>
+      </div>
+      <p id="dialogDescription"></p>
+      <div class="product-dialog__fitment"><b>Kecocokan motor</b><p id="dialogFitment">Kecocokan belum dikonfirmasi. Sampaikan tipe dan tahun motor saat bertanya.</p></div>
+      <div class="product-dialog__actions"><a class="button" id="dialogOrder" href="#">Tanya via WhatsApp <span class="arrow">↗</span></a><button class="button button--outline" id="dialogCatalog" type="button">Lihat kategori <span class="arrow">↘</span></button></div>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__copy"><b>Tunggal Motor 27 Pare</b><br>Sparepart & perlengkapan trail • Pare, Kabupaten Kediri<br>© <span id="year"></span> Tunggal Motor 27</div>
+      <div class="footer__links"><a href="#kategori">Kategori</a><a href="#produk">Produk</a><a href="#tentang">Tentang</a><a href="#lokasi">Lokasi</a></div>
+    </div>
+  </footer>
+  <a class="wa-float" data-wa="Halo Tunggal Motor 27, saya ingin tanya produk." href="#hubungi" aria-label="Chat Tunggal Motor 27 melalui WhatsApp">CHAT</a>
+
+  <script type="application/json" id="retired-three-model">
+    import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.166.1/build/three.module.js";
+
+    const canvas = document.querySelector("#bikeCanvas");
+    const stage = document.querySelector(".hero__stage");
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(36, 1, .1, 100);
+    camera.position.set(0, 2.65, 9.5);
+    camera.lookAt(0, 1.2, 0);
+
+    const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.7));
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.35;
+
+    scene.add(new THREE.HemisphereLight(0xd8f0d0, 0x161b13, 2.1));
+    const keyLight = new THREE.DirectionalLight(0xffe8a1, 3.6);
+    keyLight.position.set(-3, 6, 6);
+    scene.add(keyLight);
+    const rimLight = new THREE.PointLight(0x91ff42, 28, 12);
+    rimLight.position.set(3, 3, -3);
+    scene.add(rimLight);
+    const orangeLight = new THREE.PointLight(0xffbd20, 20, 10);
+    orangeLight.position.set(-4, 1.7, 3);
+    scene.add(orangeLight);
+
+    const bike = new THREE.Group();
+    bike.position.set(.9, -.05, 0);
+    bike.userData.baseScale = 1;
+    scene.add(bike);
+    const paint = new THREE.MeshStandardMaterial({ color: 0xffd52e, metalness: .34, roughness: .3 });
+    const black = new THREE.MeshStandardMaterial({ color: 0x151815, metalness: .42, roughness: .47 });
+    const rubber = new THREE.MeshStandardMaterial({ color: 0x090b09, roughness: .86 });
+    const metal = new THREE.MeshStandardMaterial({ color: 0x9aa49a, metalness: .86, roughness: .24 });
+    const green = new THREE.MeshStandardMaterial({ color: 0xb5f33b, metalness: .24, roughness: .32, emissive: 0x28450b, emissiveIntensity: .3 });
+    const red = new THREE.MeshStandardMaterial({ color: 0xf0444e, metalness: .2, roughness: .36 });
+    paint.name = "body-paint";
+    green.name = "accent-paint";
+    red.name = "trim-paint";
+
+    function addBox(parent, size, position, material, rotation = [0, 0, 0]) {
+      const mesh = new THREE.Mesh(new THREE.BoxGeometry(...size), material);
+      mesh.position.set(...position);
+      mesh.rotation.set(...rotation);
+      parent.add(mesh);
+      return mesh;
+    }
+    function addTube(parent, start, end, radius, material, segments = 10) {
+      const from = new THREE.Vector3(...start);
+      const to = new THREE.Vector3(...end);
+      const direction = new THREE.Vector3().subVectors(to, from);
+      const mesh = new THREE.Mesh(new THREE.CylinderGeometry(radius, radius, direction.length(), segments), material);
+      mesh.position.copy(from).add(to).multiplyScalar(.5);
+      mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), direction.normalize());
+      parent.add(mesh);
+      return mesh;
+    }
+    function addWheel(x) {
+      const wheel = new THREE.Group();
+      wheel.name = x > 0 ? "wheel-front" : "wheel-rear";
+      wheel.position.set(x, .72, 0);
+      bike.add(wheel);
+      const tire = new THREE.Mesh(new THREE.TorusGeometry(.59, .12, 12, 44), rubber);
+      wheel.add(tire);
+      const rim = new THREE.Mesh(new THREE.TorusGeometry(.43, .026, 8, 36), metal);
+      wheel.add(rim);
+      const accentRim = new THREE.Mesh(new THREE.TorusGeometry(.35, .012, 6, 36), green);
+      wheel.add(accentRim);
+      const hub = new THREE.Mesh(new THREE.CylinderGeometry(.12, .12, .19, 16), metal);
+      hub.rotation.x = Math.PI / 2;
+      wheel.add(hub);
+      const rotor = new THREE.Mesh(new THREE.CylinderGeometry(.27, .27, .028, 32), metal);
+      rotor.rotation.x = Math.PI / 2;
+      rotor.position.z = .12;
+      wheel.add(rotor);
+      for (let spoke = 0; spoke < 12; spoke += 1) {
+        const angle = (spoke / 12) * Math.PI * 2;
+        const end = [.4 * Math.cos(angle), .4 * Math.sin(angle), spoke % 2 ? .06 : -.06];
+        addTube(wheel, [0, 0, 0], end, .012, metal, 6);
+      }
+      return wheel;
+    }
+    const rearWheel = addWheel(-1.82);
+    const frontWheel = addWheel(1.83);
+
+    addTube(bike, [-1.82, .72, 0], [-.58, 1.48, 0], .075, metal);
+    addTube(bike, [-.58, 1.48, 0], [.54, 1.46, 0], .075, paint);
+    addTube(bike, [.54, 1.46, 0], [-1.02, 1.1, 0], .065, green);
+    addTube(bike, [-1.02, 1.1, 0], [-1.82, .72, 0], .065, metal);
+    addTube(bike, [-.58, 1.48, 0], [-.25, 1.1, 0], .055, metal);
+    addTube(bike, [-.25, 1.1, 0], [-1.02, 1.1, 0], .055, black);
+    addTube(bike, [.54, 1.46, 0], [1.16, 1.92, 0], .075, metal);
+    addTube(bike, [1.16, 1.92, 0], [1.83, .72, 0], .07, metal);
+    addTube(bike, [1.02, 1.84, 0], [1.83, .72, 0], .045, green);
+    addTube(bike, [1.08, 1.98, 0], [1.6, 2.03, 0], .045, black);
+    addTube(bike, [1.58, 2.03, 0], [1.72, 1.99, 0], .035, metal);
+
+    addBox(bike, [1.42, .15, .48], [-.72, 2.04, 0], black, [0, 0, -.08]);
+    const fuelTank = new THREE.Mesh(new THREE.SphereGeometry(.53, 24, 18), paint);
+    fuelTank.scale.set(1.12, .66, .64);
+    fuelTank.position.set(-.02, 1.89, 0);
+    bike.add(fuelTank);
+    const numberPlate = new THREE.Mesh(new THREE.ConeGeometry(.48, .67, 4), green);
+    numberPlate.rotation.z = Math.PI / 2;
+    numberPlate.position.set(1.27, 2.04, .03);
+    bike.add(numberPlate);
+    addBox(bike, [.86, .72, .6], [-.42, 1.27, 0], metal, [0, 0, -.08]);
+    addBox(bike, [.38, .48, .66], [-.42, 1.27, .02], black, [0, 0, -.08]);
+    addTube(bike, [-.12, 1.31, .1], [-1.27, 1.53, .1], .065, metal);
+    addTube(bike, [-1.27, 1.53, .1], [-1.53, 1.49, .1], .085, black);
+    addTube(bike, [-.1, 1.43, .34], [.28, 1.2, .4], .035, red);
+    addTube(bike, [.28, 1.2, .4], [.48, 1.48, .38], .035, red);
+    addTube(bike, [.48, 1.48, .38], [.19, 1.68, .34], .035, red);
+    addTube(bike, [.19, 1.68, .34], [-.1, 1.43, .34], .035, red);
+    addTube(bike, [1.12, 1.96, -.04], [1.12, 2.2, -.04], .035, black);
+    addTube(bike, [1.12, 2.2, -.04], [.72, 2.2, -.04], .035, metal);
+    const headlight = new THREE.Mesh(new THREE.SphereGeometry(.16, 16, 12), new THREE.MeshStandardMaterial({ color: 0xf7f6d7, emissive: 0xffe17c, emissiveIntensity: 2 }));
+    headlight.position.set(1.25, 1.88, .34);
+    bike.add(headlight);
+    const frontFender = new THREE.Mesh(new THREE.BoxGeometry(.95, .12, .5), paint);
+    frontFender.position.set(1.82, 1.43, 0);
+    frontFender.rotation.z = -.13;
+    bike.add(frontFender);
+    const rearFender = new THREE.Mesh(new THREE.BoxGeometry(.9, .11, .48), green);
+    rearFender.position.set(-1.72, 1.44, 0);
+    rearFender.rotation.z = .15;
+    bike.add(rearFender);
+    addBox(bike, [.18, .24, .18], [-1.84, 1.55, .2], red);
+
+    const platform = new THREE.Mesh(new THREE.CylinderGeometry(2.7, 2.7, .035, 80), new THREE.MeshBasicMaterial({ color: 0x343d2a, transparent: true, opacity: .36 }));
+    platform.scale.set(1.3, 1, .7);
+    platform.position.set(0, .02, 0);
+    scene.add(platform);
+    const particlePositions = new Float32Array(330 * 3);
+    const particleSeeds = [];
+    for (let i = 0; i < 330; i += 1) {
+      const position = [(Math.random() - .5) * 7, Math.random() * 4, (Math.random() - .5) * 3];
+      particleSeeds.push(position);
+      particlePositions.set(position, i * 3);
+    }
+    const particleGeometry = new THREE.BufferGeometry();
+    particleGeometry.setAttribute("position", new THREE.BufferAttribute(particlePositions, 3));
+    const dust = new THREE.Points(particleGeometry, new THREE.PointsMaterial({ color: 0xd9f58c, size: .026, transparent: true, opacity: .55, depthWrite: false }));
+    scene.add(dust);
+
+    const variantStyles = {
+      KLX: { paint: 0xb5f33b, accent: 0xffd52e, trim: 0xf0444e, wheelY: 1, wheelScale: 1, profile: 1, label: "KLX • konsep trail" },
+      CRF: { paint: 0xe93e35, accent: 0xf1f1e8, trim: 0x171a16, wheelY: 1, wheelScale: 1.04, profile: 1.02, label: "CRF • konsep enduro" },
+      WR155: { paint: 0x2877dd, accent: 0xf1f1e8, trim: 0xffd52e, wheelY: 1, wheelScale: .97, profile: .98, label: "WR155 • konsep adventure" },
+      YZ: { paint: 0x1683ed, accent: 0xf1f1e8, trim: 0xffd52e, wheelY: 1.04, wheelScale: 1.08, profile: 1.04, label: "YZ • konsep motocross" },
+      "D-Tracker": { paint: 0x171a16, accent: 0xb5f33b, trim: 0xf0444e, wheelY: .82, wheelScale: .82, profile: .94, label: "D-Tracker • konsep supermoto" }
+    };
+    function applyVariant(model, variant, cloneMaterials = false) {
+      const style = variantStyles[variant];
+      model.traverse((object) => {
+        if (!object.isMesh) return;
+        if (cloneMaterials) object.material = object.material.clone();
+        if (object.material.name === "body-paint") object.material.color.setHex(style.paint);
+        if (object.material.name === "accent-paint") object.material.color.setHex(style.accent);
+        if (object.material.name === "trim-paint") object.material.color.setHex(style.trim);
+      });
+      const front = model.getObjectByName("wheel-front");
+      const rear = model.getObjectByName("wheel-rear");
+      if (front) front.scale.set(style.wheelScale, style.wheelY, style.wheelScale);
+      if (rear) rear.scale.set(style.wheelScale, style.wheelY, style.wheelScale);
+      const baseScale = model.userData.baseScale || 1;
+      model.scale.set(baseScale * style.profile, baseScale, baseScale);
+    }
+    applyVariant(bike, "KLX");
+
+    const miniRenderers = [];
+    document.querySelectorAll("[data-mini-bike]").forEach((miniCanvas, index) => {
+      const miniScene = new THREE.Scene();
+      miniScene.add(new THREE.HemisphereLight(0xe8f2d8, 0x20251d, 2.6));
+      const miniKey = new THREE.DirectionalLight(0xffffff, 3.5);
+      miniKey.position.set(-2, 5, 5);
+      miniScene.add(miniKey);
+      const miniCamera = new THREE.PerspectiveCamera(34, 1.5, .1, 100);
+      miniCamera.position.set(0, 2.8, 9.2);
+      miniCamera.lookAt(0, 1.15, 0);
+      const miniBike = bike.clone(true);
+      miniBike.position.set(0, -.12, 0);
+      miniBike.rotation.y = -.3 + index * .035;
+      miniBike.userData.baseScale = .68;
+      miniBike.scale.setScalar(.68);
+      applyVariant(miniBike, miniCanvas.dataset.miniBike, true);
+      miniScene.add(miniBike);
+      const miniRenderer = new THREE.WebGLRenderer({ canvas: miniCanvas, alpha: true, antialias: true });
+      miniRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.4));
+      miniRenderer.outputColorSpace = THREE.SRGBColorSpace;
+      miniRenderer.toneMapping = THREE.ACESFilmicToneMapping;
+      miniRenderer.toneMappingExposure = 1.35;
+      const drawMini = () => {
+        const width = miniCanvas.clientWidth;
+        const height = miniCanvas.clientHeight;
+        if (!width || !height) return;
+        miniRenderer.setSize(width, height, false);
+        miniCamera.aspect = width / height;
+        miniCamera.updateProjectionMatrix();
+        miniRenderer.render(miniScene, miniCamera);
+      };
+      new ResizeObserver(drawMini).observe(miniCanvas);
+      miniRenderers.push({ draw: drawMini, bike: miniBike, canvas: miniCanvas });
+      drawMini();
+    });
+
+    const hotspotAnchors = {
+      engine: new THREE.Vector3(-.42, 1.38, .48),
+      exhaust: new THREE.Vector3(-1.2, 1.55, .44),
+      wheels: new THREE.Vector3(1.83, .82, .58),
+      suspension: new THREE.Vector3(1.15, 1.3, .42)
+    };
+    const partDetails = {
+      engine: { title: "Mesin", description: "Jantung motor trail. Lihat contoh item Engine dan tanyakan detail part." , category: "engine" },
+      exhaust: { title: "Knalpot", description: "Pastikan tipe leher, dudukan, dan spesifikasi sesuai unit motor.", category: "engine" },
+      wheels: { title: "Roda & ban", description: "Cek ukuran, pola tapak, dan kebutuhan medan sebelum memilih.", category: "frame" },
+      suspension: { title: "Suspensi", description: "Konfirmasi panjang, dudukan, dan setelan yang sesuai motor.", category: "frame" }
+    };
+    const hotspotButtons = [...document.querySelectorAll(".hotspot")];
+    let selectedBike = "Belum dipilih";
+    function setCategory(category) {
+      document.querySelector(`.filter[data-filter="${category}"]`)?.click();
+    }
+
+    function choosePart(part) {
+      const detail = partDetails[part];
+      document.querySelector("#spotlightTitle").textContent = detail.title;
+      document.querySelector("#spotlightDescription").textContent = detail.description;
+      hotspotButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.part === part)));
+      setCategory(detail.category);
+    }
+    hotspotButtons.forEach((button) => button.addEventListener("click", () => choosePart(button.dataset.part)));
+
+    document.querySelectorAll(".variant-card").forEach((button) => button.addEventListener("click", () => {
+      selectedBike = button.dataset.bike;
+      document.querySelectorAll(".variant-card").forEach((card) => card.setAttribute("aria-pressed", String(card === button)));
+      applyVariant(bike, selectedBike);
+      miniRenderers.forEach(({ bike: miniBike, canvas: miniCanvas, draw }) => {
+        applyVariant(miniBike, miniCanvas.dataset.miniBike);
+        draw();
+      });
+      document.querySelector("#bikeHint").textContent = `${variantStyles[selectedBike].label} dipilih • konsep visual, bukan spesifikasi model resmi.`;
+      document.querySelector("#spotlightDescription").textContent = `Konsep visual ${selectedBike} dipilih. Tanyakan kecocokan part berdasarkan tipe dan tahun motor.`;
+    }));
+
+    const productDialog = document.querySelector("#productDialog");
+    const dialogOrder = document.querySelector("#dialogOrder");
+    let dialogCategory = "all";
+    document.querySelectorAll("[data-detail]").forEach((button) => button.addEventListener("click", () => {
+      const product = button.closest(".product");
+      dialogCategory = product.dataset.category;
+      document.querySelector("#dialogCategory").textContent = `${product.dataset.category} • contoh produk`;
+      document.querySelector("#dialogTitle").textContent = product.dataset.product;
+      document.querySelector("#dialogDescription").textContent = product.dataset.description;
+      document.querySelector("#dialogFitment").textContent = `Kecocokan ${selectedBike === "Belum dipilih" ? "motor belum dipilih" : `motor ${selectedBike}`} belum terverifikasi. Kirim tipe lengkap dan tahun motor ke toko.`;
+      dialogOrder.href = waUrl(`Halo Tunggal Motor 27, saya ingin tanya ${product.dataset.product}. Tipe motor: ${selectedBike}. Mohon konfirmasi harga, stok, dan kecocokan.`);
+      productDialog.showModal();
+    }));
+    document.querySelector(".product-dialog__close").addEventListener("click", () => productDialog.close());
+    productDialog.addEventListener("click", (event) => {
+      if (event.target === productDialog) productDialog.close();
+    });
+    document.querySelector("#dialogCatalog").addEventListener("click", () => {
+      productDialog.close();
+      setCategory(dialogCategory);
+      document.querySelector("#produk").scrollIntoView({ behavior: "smooth" });
+    });
+
+    document.querySelectorAll(".product").forEach((product) => {
+      product.addEventListener("pointermove", (event) => {
+        if (window.matchMedia("(pointer: coarse)").matches) return;
+        const bounds = product.getBoundingClientRect();
+        const x = (event.clientX - bounds.left) / bounds.width - .5;
+        const y = (event.clientY - bounds.top) / bounds.height - .5;
+        product.style.transform = `perspective(900px) rotateY(${x * 5}deg) rotateX(${y * -5}deg) translateY(-3px)`;
+      });
+      product.addEventListener("pointerleave", () => { product.style.transform = ""; });
+    });
+
+    let rotation = -.34;
+    let pointerDown = false;
+    let pointerX = 0;
+    canvas.addEventListener("pointerdown", (event) => {
+      pointerDown = true;
+      pointerX = event.clientX;
+      canvas.setPointerCapture(event.pointerId);
+    });
+    canvas.addEventListener("pointermove", (event) => {
+      if (!pointerDown) return;
+      rotation += (event.clientX - pointerX) * .012;
+      pointerX = event.clientX;
+    });
+    canvas.addEventListener("pointerup", () => { pointerDown = false; });
+    canvas.addEventListener("pointercancel", () => { pointerDown = false; });
+
+    function resizeScene() {
+      const width = stage.clientWidth;
+      const height = stage.clientHeight;
+      if (!width || !height) return;
+      camera.aspect = width / height;
+      camera.position.z = width < 520 ? 11.2 : width < 800 ? 10.4 : 9.5;
+      camera.updateProjectionMatrix();
+      renderer.setSize(width, height, false);
+    }
+    new ResizeObserver(resizeScene).observe(stage);
+    resizeScene();
+
+    function positionHotspots() {
+      bike.updateMatrixWorld(true);
+      hotspotButtons.forEach((button) => {
+        const point = hotspotAnchors[button.dataset.part].clone();
+        bike.localToWorld(point);
+        point.project(camera);
+        const x = (point.x * .5 + .5) * stage.clientWidth;
+        const y = (-point.y * .5 + .5) * stage.clientHeight;
+        const visible = point.z < 1 && x > 0 && x < stage.clientWidth && y > 0 && y < stage.clientHeight;
+        button.style.left = `${x}px`;
+        button.style.top = `${y}px`;
+        button.style.opacity = visible ? "1" : "0";
+      });
+    }
+    const clock = new THREE.Clock();
+    function animate() {
+      const elapsed = clock.getElapsedTime();
+      if (!pointerDown) rotation += .0015;
+      bike.rotation.y = rotation;
+      bike.position.y = -.05 + Math.sin(elapsed * 1.2) * .035;
+      dust.rotation.y = elapsed * .018;
+      positionHotspots();
+      renderer.render(scene, camera);
+      requestAnimationFrame(animate);
+    }
+    animate();
+
+    window.addEventListener("pointermove", (event) => {
+      if (window.matchMedia("(pointer: coarse)").matches) return;
+      const x = (event.clientX / window.innerWidth - .5) * .1;
+      const y = (event.clientY / window.innerHeight - .5) * -.045;
+      bike.position.x = .9 + x;
+      bike.position.y = -.05 + y;
+    }, { passive: true });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
